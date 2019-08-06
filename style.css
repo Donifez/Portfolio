@@ -407,6 +407,10 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     #about{
         display:grid;
         left:-20px;
+      
+    }
+    .details{
+        font-size:1.7rem;
     }
     #ify{
         left:350px;
