@@ -2,7 +2,7 @@
 
 body{
 
-   max-width: 55%;
+   max-width: 65%;
     margin:10;
     padding:0;
    font-family: 'Open Sans', sans-serif;
@@ -400,7 +400,9 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     
 
 @media(max-width:425px){
-   
+   body{
+       max-width:40%;
+   }
     .nav{
         left:150px;
     }
@@ -437,7 +439,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     }
    
     .tools{
-        width:330px;
+        width:90%;
         left:-10px;
     }
     .projects-header{
@@ -454,11 +456,13 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     
 }
 @media(max-width:375px){
-    .tools{
+   
+    /* .tools{
         width:310px;
-    }
+    } */
 }
 @media(max-width:320px){
+  
     .nav{
         left:50px;
     }
@@ -476,7 +480,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     }
     .tools{
         top:290px;
-        width:280px;
+        /* width:280px; */
     }
     .footer-header{
         width:370px;
