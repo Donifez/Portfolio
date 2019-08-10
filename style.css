@@ -2,7 +2,7 @@
 
 body{
 
-   max-width: 65%;
+   max-width: 90%;
     margin:10;
     padding:0;
    font-family: 'Open Sans', sans-serif;
@@ -15,7 +15,7 @@ body{
 .toggle{
     position: absolute;
     top:100px;
-    left:1120px;
+    left:1160px;
     background: #fff;
     border:2px solid #00151f;
     height: 20px;
@@ -42,12 +42,6 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     z-index: 2;
     color: #fff;
 }
-
-
-
-
-
-
 
 
 .toggle.active{
@@ -115,7 +109,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
 #name{
     position: relative;
     top:30px;
-    right:-200px;
+    right:-120px;
     display:inline;
   
 }
@@ -140,7 +134,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     position:relative;
     top:60px;
     font-size:18px;
-    right:-200px;
+    right:-120px;
    width:800px;
    color: #404040;
    
@@ -194,7 +188,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
 #resume{
     position: relative;
     top:160px;
-    right:-1070px;
+    right:-1110px;
     color:#0070ba;
     border-radius:5px;
     background: #fff ;
@@ -212,7 +206,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     text-align: center;
     position: relative;
     top:220px;
-    left:310px;
+    left:80px;
     font-weight: bolder;
     font-size: 30px;
  
@@ -225,7 +219,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     text-align: center;
     position: relative;
     top:250px;
-    left:310px;
+    left:80px;
     font-size: 30px;
     font-weight: bolder;
    
@@ -255,7 +249,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     position:relative;
     text-align: center;
     top:270px;
-    left:310px;
+    left:80px;
     font-size: 30px;
     font-weight: bolder;
    
@@ -269,7 +263,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     justify-content: space-evenly;
     flex-wrap: wrap;
     position:relative;
-    left:280px;
+    left:80px;
   scroll-snap-align:center;
     font-size: 2rem;
  
@@ -345,23 +339,23 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
 
 @media(max-width:1024px){
     .toggle{
-        left:1100px;
+        left:1150px;
     }
     .tools-header{
-        left:390px;
+        left:230px;
     }
     .projects-header{
-        left:390px;
+        left:230px;
     }
     .footer-header{
-        left:390px;
+        left:230px;
     }
     #name{
-        right:-250px;
+        right:-190px;
     }
     .details{
         
-            right:-250px; 
+            right:-190px; 
     }
     .fa{
         right:-250px;
@@ -381,17 +375,17 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
         width:800px;
     }
     .toggle{
-        left:1110px;
+        left:1150px;
     }
    
     #name, .details{
-        right:-270px;
+        right:-250px;
     }
     .projects-header{
-        left:450px;
+        left:340px;
     }
     .tools-header, .footer-header{
-        left:450px;
+        left:340px;
     }
     .footer-icons{
         left:160px;
@@ -400,11 +394,9 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     
 
 @media(max-width:425px){
-   body{
-       max-width:40%;
-   }
+   
     .nav{
-        left:150px;
+        left:110px;
     }
     #about{
         display:grid;
@@ -425,7 +417,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
         top:180px;
     }
     .toggle{
-        left:900px;
+        left:840px;
     }
     .projects{
         left:400px;
@@ -434,7 +426,7 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
         grid-template-columns: 1fr 1fr;
     }
     .card{
-        margin:15px;    
+        margin:10px;    
         
     }
    
@@ -443,10 +435,10 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
         left:-10px;
     }
     .projects-header{
-        left:430px;
+        left:380px;
     }
     .tools-header, .footer-header{
-        left:430px;
+        left:380px;
     }
     .footer-icons{
         left:160px;
