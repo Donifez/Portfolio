@@ -300,7 +300,11 @@ body.night .fa-instagram:hover, body.night .fa-codepen:hover
     position:relative;
     left:30px;
 }
-
+.fa-phone-square, .fa-envelope-o{
+    position:relative;
+    top:-2.5rem;
+    left:15rem;
+}
 @-webkit-keyframes vibrate-1 {
     0% {
       -webkit-transform: translate(0);
